@@ -8,13 +8,13 @@ const dockerHub = "https://registry-1.docker.io";
 const routes = {
   // production
   "cloudflare-docker-proxy.amiua.eu.org": dockerHub,
-  "quay.libcuda.so": "https://quay.io",
-  "gcr.libcuda.so": "https://gcr.io",
-  "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-  "k8s.libcuda.so": "https://registry.k8s.io",
-  "ghcr.libcuda.so": "https://ghcr.io",
-  "cloudsmith.libcuda.so": "https://docker.cloudsmith.io",
-  "ecr.libcuda.so": "https://public.ecr.aws",
+  "quay.amiua.eu.org": "https://quay.io",
+  "gcr.amiua.eu.org": "https://gcr.io",
+  "k8s-gcr.amiua.eu.org": "https://k8s.gcr.io",
+  "k8s.amiua.eu.org": "https://registry.k8s.io",
+  "ghcr.amiua.eu.org": "https://ghcr.io",
+  "cloudsmith.amiua.eu.org": "https://docker.cloudsmith.io",
+  "ecr.amiua.eu.org": "https://public.ecr.aws",
 
   // staging
   "cloudflare-docker-proxy-staging.amiua.eu.org": dockerHub,
