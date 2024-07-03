@@ -7,7 +7,7 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "cloudflare-docker-proxy.amiua.eu.org": dockerHub,
+  "docker.amiua.eu.org": dockerHub,
   "quay.amiua.eu.org": "https://quay.io",
   "gcr.amiua.eu.org": "https://gcr.io",
   "k8s-gcr.amiua.eu.org": "https://k8s.gcr.io",
@@ -17,7 +17,7 @@ const routes = {
   "ecr.amiua.eu.org": "https://public.ecr.aws",
 
   // staging
-  "cloudflare-docker-proxy-staging.amiua.eu.org": dockerHub,
+  "docker-staging.amiua.eu.org": dockerHub,
 };
 
 function routeByHosts(host) {
